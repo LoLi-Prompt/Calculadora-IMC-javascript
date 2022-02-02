@@ -1,0 +1,37 @@
+body {
+    background-color: rgb(76, 76, 206);
+    background-image: url(programming-wallpaper-1920x1080.jpg);
+}
+section {
+    background-color: rgba(255, 255, 255, 0.884);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16pt;
+    text-align: left;
+    margin: auto;
+    margin-top: 200px;
+    width: 600px;
+    border-radius:10px;
+    padding: 30px;
+}
+footer {
+    margin-top: 20px;
+    font-size:18pt;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-style: italic;
+    color: rgb(255, 255, 255);
+}
+li {
+    list-style: none;
+    text-align: right;
+    padding: 10px;
+    font-size: 30px;
+}
+ul {
+    margin-top: -100px;
+}
+img {
+    border-radius: 50%;
+    margin-left: 50px;
+
+}

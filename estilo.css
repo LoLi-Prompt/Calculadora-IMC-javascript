@@ -1,0 +1,137 @@
+header {
+    background-color: rgba(0, 0, 0, 0.767);
+    color: rgb(255, 255, 255);
+    max-width: 900px;
+    margin: auto;
+    margin-top: 10px;
+    padding-top: 35px;
+    border-radius: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+#imagem {
+    border-radius: 50%;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    padding-right: 0px;
+    padding-bottom: 0px;
+    padding-left: 30px;
+}
+#imglegenda {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:12pt;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+    padding-left: 35px;
+    padding-top: 0px;
+    margin-top: 0px;
+}
+#imgcontainer {
+    max-width: 800px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+#containerMenu {
+    max-width: 700px;
+    padding-left: 165px;
+    margin-top: -100px;
+    padding-right: 25px;
+    margin-right: 25px;
+}
+#tituloheader {
+    text-align: end;
+}
+#menu {
+    list-style: none;
+    padding-bottom: 10px;
+    padding-right: 0px;
+    margin-top: -10px;
+    padding-top: -10px;
+    text-align: right;
+}
+li {
+    display: inline-block;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16pt;
+    text-transform: uppercase;
+    padding-left: 20px;
+}
+body {
+    background-image: url(Hamburguer_Gourmet_em_casa.jpg);
+    background-size: auto;
+}
+aside {
+    background-color: rgba(3, 3, 3, 0.815);
+    color: rgb(255, 255, 255);
+    max-width: 800px;
+    margin: auto;
+    margin-top: 30px;
+    padding: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13pt;
+    text-indent: 25px;
+    border-radius: 15px;
+}
+section {
+    background-color: rgba(255, 252, 103, 0.856);
+    color:rgb(0, 0, 0);
+    max-width: 300px;
+    margin: auto;
+    margin-top: 25px;
+    padding: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20pt;
+    border-radius: 25px;
+}
+h1 {
+    margin-top:0px;
+    padding-bottom: 30px;
+    text-align: center;
+}
+
+#nome {
+    border-radius: 5px;
+    width: 180px;
+    height: 30px;
+    font-size: 18pt;
+    text-align: center;
+
+}
+#altura {
+    border-radius: 5px;
+    width: 180px;
+    height: 30px;
+    font-size: 18pt;
+    text-align: center;
+}
+#peso {
+    border-radius: 5px;
+    width: 180px;
+    height: 30px;
+    margin-left: 10px;
+    font-size: 18pt;
+    text-align: center;
+}
+#calcular {
+    border-radius: 5px;
+    margin-left: 65px;
+    margin-top: 10px;
+    width: 180px;
+    height: 50px;
+    font-size: 18pt;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    background-color: black;
+}
+#resultado {
+    background-color: rgba(0, 0, 0, 0.884);
+    color: rgb(253, 253, 253);
+    max-width: 300px;
+    margin: auto;
+    margin-top: 35px;
+    padding: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18pt;
+    border-radius: 25px;
+    text-align: center;
+}
