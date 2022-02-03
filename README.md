@@ -1,2 +1,80 @@
 # Calculadora IMC javascript
  Calculadora imc em javascript, desenvolvida em site HTML5 e CSS3
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IMC e Saúde</title>
+    <link rel="stylesheet" href="estilo.css">
+    <script src="javascript.js"></script>
+</head>
+<body>
+    <header>
+        <img id="imagem" src="logo.png" alt="Luisa img">
+        <p id="imglegenda">&copy; By Luisa Var Lee</p>
+        <div id="containerMenu">
+            <h1 id="tituloheader">A importância de uma alimentação saudável e o índice de massa corporal (IMC) </h1>
+        <nav id="menu" type="content">
+            <ul id="lista">
+                <li><a href="https://www.scielo.br/j/abem/a/vvvr8GQ3xwMJThHrXQW4jSj/?lang=pt" target="_blank">Artigo de Referência</a></li>
+                <li><a href="index (2).html" target="_blank">Sobre o autor(a)</a></li>
+            </ul>
+        </nav>
+        </div>
+    </header>
+
+    <aside>
+        <h2>Resumo...</h2>
+        <p>Apresentamos sugestões para a definição de guias alimentares para a população brasileira, excetuando as crianças. Os principais objetivos dessas recomedações são a manutenção de peso saudável e a prevenção da obesidade, das doenças cardiovasculares, do diabetes mellitus tipo 2 e da osteoporose. As mensagens para o público têm duas pressuposições: retomar hábitos saudáveis da dieta brasileira e estimular o consumo de alimentação saudável ao invés de formular proibições. As principais mensagens incluem: consumo de alimentos variados, em 4 refeições ao dia; manutenção de um peso saudável; aumento da atividade física diária; ingestão de arroz e feijão todos os dias, acompanhados de legumes e vegetais folhosos; ingestão de 4 a 5 porções de frutas todos os dias; redução do açúcar; evitar uso de refrigerantes; para lanches, comer frutas ao invés de biscoitos, bolos e salgadinhos; comer pouco sal; usar óleos e azeite ao invés de outras gorduras; tomar leite e comer produtos lácteos, com baixo teor de gordura, pelo menos 3 vezes por dia. <br><br>
+            
+            DEZ PASSOS PARA UMA ALIMENTAÇÃO ADEQUADA
+
+            Visando a manutenção de peso saudável e a prevenção de obesidade, doenças cardiovasculares, diabetes tipo 2 e osteoporose, recomedamos: <br>
+            
+            1. Consuma alimentos variados, em 4 refeições ao dia. Pular refeições não emagrece e prejudica a saúde;<br><br>
+            
+            2. Mantenha um peso saudável e evite ganhar peso após os 20 anos. Evite também o aumento da cintura;<br><br>
+            
+            3. Faça atividade física todos os dias. Inclua na sua rotina andar a pé, subir escada, jogar bola, dançar, passear e outras atividades;<br>
+            
+            4. Coma arroz e feijão todos os dias acompanhados de legumes e vegetais folhosos;<br><br>
+            
+            5. Coma 4 a 5 porções de frutas, todos os dias, na forma natural;<br><br>
+            
+            6. Reduza o açúcar. Evite tomar refrigerantes. <br><br>
+            
+            7. Para lanches coma frutas ao invés de biscoitos, bolos e salgadinhos;<br><br>
+            
+            8. Coma pouco sal. Evite alimentos enlatados e produtos como salame, mortadela e presunto, que contêm muito sal. Evite adicionar sal à comida já preparada. Aumente o uso de alho, salsinha e cebolinha. Alimentos ingeridos na sua forma natural como feijão, arroz, frutas, grãos e verduras têm pouquíssimo sal;<br>
+            
+            9. Use óleos e azeite no preparo de bolos, tortas e refeições;<br><br>
+            
+            10. Tome leite e coma produtos lácteos com baixo teor de gordura, pelo menos 3 vezes por dia.<br><br>
+
+
+            <img id="imgcontainer" src="alimentos-saudaveis.jpg" alt="alimentos saudáveis">
+
+            Guias de alimentação; Obesidade; Doença cardiovascular; Osteoporose; Diabetes; Prevenção</p><br><br>
+            <h3>Abaixo temos nossa ferramenta de medição do IMC, Confira!</h3><br><br>
+
+            <section>
+                <div id="div1">
+                    <h1>Calcular IMC</h1>
+                    <p>Nome: <input type="text" name="nome" id="nome"></p>
+                    <p>Altura: <input type="number" name="altura" id="altura" max="200"></p>
+                    <p>Peso: <input type="number" name="peso" id="peso" max="150"></p>
+                    <p><input type="button" value="Calcular!" id="calcular"></p>
+                </div>
+                <div id="resultado">
+                    <p>Seu IMC é ----</p>
+                </div>
+            </section>
+    </aside>
+
+    
+    
+</body>
+</html>
